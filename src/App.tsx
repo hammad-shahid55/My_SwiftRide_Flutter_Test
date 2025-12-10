@@ -9,20 +9,20 @@ const FlutterTestPresentation = () => {
     {
       title: "Flutter Test Implementation",
       content: (
-        <div className="text-center space-y-4 sm:space-y-6 md:space-y-8 h-full flex flex-col justify-center">
-          <div className="text-4xl sm:text-5xl md:text-6xl mb-3 sm:mb-4 md:mb-6">🧪</div>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-600 mb-2 sm:mb-3 md:mb-4">Flutter Test</h1>
-          <h2 className="text-xl sm:text-2xl md:text-3xl text-gray-700 mb-4 sm:mb-6 md:mb-8">Automated Testing Tool</h2>
-          <div className="bg-blue-50 p-4 sm:p-5 md:p-6 rounded-lg inline-block">
-            <p className="text-lg sm:text-xl md:text-2xl font-semibold text-blue-800 mb-1 sm:mb-2">SwiftRide Project Implementation</p>
-            <p className="text-sm sm:text-base md:text-lg text-gray-600">Real-World Testing Case Study</p>
+        <div className="text-center space-y-2 sm:space-y-3 md:space-y-4 h-full flex flex-col justify-center overflow-hidden">
+          <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-1 sm:mb-2 md:mb-3">🧪</div>
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-blue-600 mb-1 sm:mb-2 md:mb-3">Flutter Test</h1>
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-700 mb-2 sm:mb-3 md:mb-4">Automated Testing Tool</h2>
+          <div className="bg-blue-50 p-3 sm:p-4 md:p-5 lg:p-6 rounded-lg inline-block">
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold text-blue-800 mb-1">SwiftRide Project Implementation</p>
+            <p className="text-xs sm:text-sm md:text-base lg:text-lg text-gray-600">Real-World Testing Case Study</p>
           </div>
-          <div className="mt-6 sm:mt-8 md:mt-12 space-y-1 sm:space-y-2">
-            <p className="text-base sm:text-lg md:text-xl text-blue-600 font-semibold">Group Members:</p>
-            <p className="text-sm sm:text-base md:text-lg text-blue-600">Maria Ashraf (01-134221-037)</p>
-            <p className="text-sm sm:text-base md:text-lg text-blue-600">Hammad Shahid (01-134221-026)</p>
+          <div className="mt-2 sm:mt-3 md:mt-4 space-y-0.5 sm:space-y-1">
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl text-blue-600 font-semibold">Group Members:</p>
+            <p className="text-xs sm:text-sm md:text-base lg:text-lg text-blue-600">Maria Ashraf (01-134221-037)</p>
+            <p className="text-xs sm:text-sm md:text-base lg:text-lg text-blue-600">Hammad Shahid (01-134221-026)</p>
           </div>
-          <p className="text-xs sm:text-sm text-gray-500 mt-4 sm:mt-6 md:mt-8 uppercase tracking-wide">SOFTWARE QUALITY ASSURANCE – ASSIGNMENT 4</p>
+          <p className="text-xs text-gray-500 mt-2 sm:mt-3 md:mt-4 uppercase tracking-wide">SOFTWARE QUALITY ASSURANCE – ASSIGNMENT 4</p>
         </div>
       )
     },
@@ -31,42 +31,42 @@ const FlutterTestPresentation = () => {
     {
       title: "Overview - What is Flutter Test?",
       content: (
-        <div className="space-y-4 sm:space-y-5 md:space-y-6">
-          <div className="bg-gradient-to-r from-blue-500 to-blue-600 text-white p-4 sm:p-5 md:p-6 rounded-lg shadow-lg">
-            <p className="text-base sm:text-lg md:text-xl leading-relaxed">
+        <div className="space-y-2 sm:space-y-3 md:space-y-4 h-full flex flex-col justify-center overflow-hidden">
+          <div className="bg-gradient-to-r from-blue-500 to-blue-600 text-white p-3 sm:p-4 md:p-5 rounded-lg shadow-lg">
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed">
               Flutter Test is a <span className="font-bold underline">built-in testing framework</span> within the Flutter SDK that provides comprehensive testing capabilities for Flutter applications
             </p>
           </div>
           
-          <div className="bg-white p-4 sm:p-5 md:p-6 rounded-lg shadow-md border-l-4 border-blue-500">
-            <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-800">Key Purpose</h3>
-            <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
+          <div className="bg-white p-3 sm:p-4 md:p-5 rounded-lg shadow-md border-l-4 border-blue-500">
+            <h3 className="text-base sm:text-lg md:text-xl font-bold mb-2 sm:mb-3 text-gray-800">Key Purpose</h3>
+            <p className="text-xs sm:text-sm md:text-base text-gray-700 leading-relaxed">
               Ensures UI reliability, logic correctness, and full app functionality through automated testing without external dependencies
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
-            <div className="bg-gradient-to-br from-green-50 to-green-100 p-4 sm:p-5 rounded-lg border-t-4 border-green-500 text-center">
-              <Code className="w-10 h-10 sm:w-12 sm:h-12 text-green-600 mx-auto mb-2 sm:mb-3" />
-              <h3 className="font-bold text-base sm:text-lg mb-1 sm:mb-2 text-green-900">Unit Testing</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-3 md:gap-4">
+            <div className="bg-gradient-to-br from-green-50 to-green-100 p-3 sm:p-4 md:p-5 rounded-lg border-t-4 border-green-500 text-center">
+              <Code className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 text-green-600 mx-auto mb-1 sm:mb-2" />
+              <h3 className="font-bold text-sm sm:text-base md:text-lg mb-1 text-green-900">Unit Testing</h3>
               <p className="text-xs sm:text-sm text-gray-700">Tests individual functions and business logic</p>
             </div>
             
-            <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-4 sm:p-5 rounded-lg border-t-4 border-purple-500 text-center">
-              <Activity className="w-10 h-10 sm:w-12 sm:h-12 text-purple-600 mx-auto mb-2 sm:mb-3" />
-              <h3 className="font-bold text-base sm:text-lg mb-1 sm:mb-2 text-purple-900">Widget Testing</h3>
+            <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-3 sm:p-4 md:p-5 rounded-lg border-t-4 border-purple-500 text-center">
+              <Activity className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 text-purple-600 mx-auto mb-1 sm:mb-2" />
+              <h3 className="font-bold text-sm sm:text-base md:text-lg mb-1 text-purple-900">Widget Testing</h3>
               <p className="text-xs sm:text-sm text-gray-700">Validates UI components without real devices</p>
             </div>
             
-            <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-4 sm:p-5 rounded-lg border-t-4 border-orange-500 text-center">
-              <Shield className="w-10 h-10 sm:w-12 sm:h-12 text-orange-600 mx-auto mb-2 sm:mb-3" />
-              <h3 className="font-bold text-base sm:text-lg mb-1 sm:mb-2 text-orange-900">Integration Testing</h3>
+            <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-3 sm:p-4 md:p-5 rounded-lg border-t-4 border-orange-500 text-center">
+              <Shield className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 text-orange-600 mx-auto mb-1 sm:mb-2" />
+              <h3 className="font-bold text-sm sm:text-base md:text-lg mb-1 text-orange-900">Integration Testing</h3>
               <p className="text-xs sm:text-sm text-gray-700">End-to-end testing on devices/emulators</p>
             </div>
           </div>
           
-          <div className="bg-gray-800 text-white p-3 sm:p-4 rounded-lg">
-            <p className="text-center font-semibold text-sm sm:text-base md:text-lg">
+          <div className="bg-gray-800 text-white p-2 sm:p-3 md:p-4 rounded-lg">
+            <p className="text-center font-semibold text-xs sm:text-sm md:text-base lg:text-lg">
               ✨ Official Framework - No External Dependencies Required
             </p>
           </div>
@@ -78,53 +78,53 @@ const FlutterTestPresentation = () => {
     {
       title: "Types of Testing Supported",
       content: (
-        <div className="space-y-3 sm:space-y-4 md:space-y-5">
-          <div className="bg-white p-4 sm:p-5 md:p-6 rounded-lg shadow-lg border-l-8 border-green-500">
+        <div className="space-y-2 sm:space-y-3 md:space-y-4 h-full flex flex-col justify-center overflow-hidden">
+          <div className="bg-white p-3 sm:p-4 md:p-5 rounded-lg shadow-lg border-l-8 border-green-500">
             <div className="flex items-start">
-              <div className="bg-green-100 p-3 rounded-full mr-4">
-                <Code className="w-8 h-8 text-green-600" />
+              <div className="bg-green-100 p-2 sm:p-3 rounded-full mr-3 sm:mr-4">
+                <Code className="w-6 h-6 sm:w-8 sm:h-8 text-green-600" />
               </div>
               <div className="flex-1">
-                <h3 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-3 text-green-700">Unit Testing</h3>
-                <p className="text-gray-700 mb-2">Tests individual functions, methods, and business logic in isolation</p>
-                <div className="bg-green-50 p-3 rounded mt-2">
-                  <p className="text-sm font-semibold text-green-800">✓ Fast execution (milliseconds)</p>
-                  <p className="text-sm font-semibold text-green-800">✓ Validates data models and utilities</p>
-                  <p className="text-sm font-semibold text-green-800">✓ Tests form validation logic</p>
+                <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-1 sm:mb-2 text-green-700">Unit Testing</h3>
+                <p className="text-xs sm:text-sm md:text-base text-gray-700 mb-1 sm:mb-2">Tests individual functions, methods, and business logic in isolation</p>
+                <div className="bg-green-50 p-2 sm:p-3 rounded mt-1 sm:mt-2">
+                  <p className="text-xs sm:text-sm font-semibold text-green-800">✓ Fast execution (milliseconds)</p>
+                  <p className="text-xs sm:text-sm font-semibold text-green-800">✓ Validates data models and utilities</p>
+                  <p className="text-xs sm:text-sm font-semibold text-green-800">✓ Tests form validation logic</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="bg-white p-4 sm:p-5 md:p-6 rounded-lg shadow-lg border-l-8 border-purple-500">
+          <div className="bg-white p-3 sm:p-4 md:p-5 rounded-lg shadow-lg border-l-8 border-purple-500">
             <div className="flex items-start">
-              <div className="bg-purple-100 p-3 rounded-full mr-4">
-                <Activity className="w-8 h-8 text-purple-600" />
+              <div className="bg-purple-100 p-2 sm:p-3 rounded-full mr-3 sm:mr-4">
+                <Activity className="w-6 h-6 sm:w-8 sm:h-8 text-purple-600" />
               </div>
               <div className="flex-1">
-                <h3 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-3 text-purple-700">Widget Testing</h3>
-                <p className="text-gray-700 mb-2">Validates UI components without needing a real device or emulator</p>
-                <div className="bg-purple-50 p-3 rounded mt-2">
-                  <p className="text-sm font-semibold text-purple-800">✓ Tests button clicks and interactions</p>
-                  <p className="text-sm font-semibold text-purple-800">✓ Verifies text field behavior</p>
-                  <p className="text-sm font-semibold text-purple-800">✓ Checks widget rendering and styling</p>
+                <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-1 sm:mb-2 text-purple-700">Widget Testing</h3>
+                <p className="text-xs sm:text-sm md:text-base text-gray-700 mb-1 sm:mb-2">Validates UI components without needing a real device or emulator</p>
+                <div className="bg-purple-50 p-2 sm:p-3 rounded mt-1 sm:mt-2">
+                  <p className="text-xs sm:text-sm font-semibold text-purple-800">✓ Tests button clicks and interactions</p>
+                  <p className="text-xs sm:text-sm font-semibold text-purple-800">✓ Verifies text field behavior</p>
+                  <p className="text-xs sm:text-sm font-semibold text-purple-800">✓ Checks widget rendering and styling</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="bg-white p-4 sm:p-5 md:p-6 rounded-lg shadow-lg border-l-8 border-orange-500">
+          <div className="bg-white p-3 sm:p-4 md:p-5 rounded-lg shadow-lg border-l-8 border-orange-500">
             <div className="flex items-start">
-              <div className="bg-orange-100 p-3 rounded-full mr-4">
-                <Shield className="w-8 h-8 text-orange-600" />
+              <div className="bg-orange-100 p-2 sm:p-3 rounded-full mr-3 sm:mr-4">
+                <Shield className="w-6 h-6 sm:w-8 sm:h-8 text-orange-600" />
               </div>
               <div className="flex-1">
-                <h3 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-3 text-orange-700">Integration Testing</h3>
-                <p className="text-gray-700 mb-2">End-to-end testing on actual devices or emulators</p>
-                <div className="bg-orange-50 p-3 rounded mt-2">
-                  <p className="text-sm font-semibold text-orange-800">✓ Complete user journey validation</p>
-                  <p className="text-sm font-semibold text-orange-800">✓ Tests navigation flows</p>
-                  <p className="text-sm font-semibold text-orange-800">✓ Verifies full app functionality</p>
+                <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-1 sm:mb-2 text-orange-700">Integration Testing</h3>
+                <p className="text-xs sm:text-sm md:text-base text-gray-700 mb-1 sm:mb-2">End-to-end testing on actual devices or emulators</p>
+                <div className="bg-orange-50 p-2 sm:p-3 rounded mt-1 sm:mt-2">
+                  <p className="text-xs sm:text-sm font-semibold text-orange-800">✓ Complete user journey validation</p>
+                  <p className="text-xs sm:text-sm font-semibold text-orange-800">✓ Tests navigation flows</p>
+                  <p className="text-xs sm:text-sm font-semibold text-orange-800">✓ Verifies full app functionality</p>
                 </div>
               </div>
             </div>
@@ -137,54 +137,54 @@ const FlutterTestPresentation = () => {
     {
       title: "Key Features of Flutter Test",
       content: (
-        <div className="space-y-3 sm:space-y-4">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5">
-            <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-lg shadow-md">
-              <div className="flex items-center mb-3">
-                <Zap className="w-10 h-10 text-blue-600 mr-3" />
-                <h3 className="font-bold text-xl text-blue-900">Fast Execution</h3>
+        <div className="space-y-2 sm:space-y-3 md:space-y-4 h-full flex flex-col justify-center overflow-hidden">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3 md:gap-4">
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-3 sm:p-4 md:p-5 rounded-lg shadow-md">
+              <div className="flex items-center mb-2">
+                <Zap className="w-8 h-8 sm:w-10 sm:h-10 text-blue-600 mr-2 sm:mr-3" />
+                <h3 className="font-bold text-base sm:text-lg md:text-xl text-blue-900">Fast Execution</h3>
               </div>
-              <p className="text-gray-700">Tests run in milliseconds with automated workflows and efficient test runners</p>
+              <p className="text-xs sm:text-sm md:text-base text-gray-700">Tests run in milliseconds with automated workflows and efficient test runners</p>
             </div>
             
-            <div className="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-lg shadow-md">
-              <div className="flex items-center mb-3">
-                <CheckCircle className="w-10 h-10 text-green-600 mr-3" />
-                <h3 className="font-bold text-xl text-green-900">Built-in Assertions</h3>
+            <div className="bg-gradient-to-br from-green-50 to-green-100 p-3 sm:p-4 md:p-5 rounded-lg shadow-md">
+              <div className="flex items-center mb-2">
+                <CheckCircle className="w-8 h-8 sm:w-10 sm:h-10 text-green-600 mr-2 sm:mr-3" />
+                <h3 className="font-bold text-base sm:text-lg md:text-xl text-green-900">Built-in Assertions</h3>
               </div>
-              <p className="text-gray-700">Rich set of matchers, expect statements, and golden test support for UI comparison</p>
+              <p className="text-xs sm:text-sm md:text-base text-gray-700">Rich set of matchers, expect statements, and golden test support for UI comparison</p>
             </div>
             
-            <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-lg shadow-md">
-              <div className="flex items-center mb-3">
-                <Code className="w-10 h-10 text-purple-600 mr-3" />
-                <h3 className="font-bold text-xl text-purple-900">Mocking Support</h3>
+            <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-3 sm:p-4 md:p-5 rounded-lg shadow-md">
+              <div className="flex items-center mb-2">
+                <Code className="w-8 h-8 sm:w-10 sm:h-10 text-purple-600 mr-2 sm:mr-3" />
+                <h3 className="font-bold text-base sm:text-lg md:text-xl text-purple-900">Mocking Support</h3>
               </div>
-              <p className="text-gray-700">Mock APIs, external services, and dependencies easily with built-in mocking framework</p>
+              <p className="text-xs sm:text-sm md:text-base text-gray-700">Mock APIs, external services, and dependencies easily with built-in mocking framework</p>
             </div>
             
-            <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-6 rounded-lg shadow-md">
-              <div className="flex items-center mb-3">
-                <Activity className="w-10 h-10 text-orange-600 mr-3" />
-                <h3 className="font-bold text-xl text-orange-900">Widget Control</h3>
+            <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-3 sm:p-4 md:p-5 rounded-lg shadow-md">
+              <div className="flex items-center mb-2">
+                <Activity className="w-8 h-8 sm:w-10 sm:h-10 text-orange-600 mr-2 sm:mr-3" />
+                <h3 className="font-bold text-base sm:text-lg md:text-xl text-orange-900">Widget Control</h3>
               </div>
-              <p className="text-gray-700">Complete control over widget rendering, interaction, and lifecycle management</p>
+              <p className="text-xs sm:text-sm md:text-base text-gray-700">Complete control over widget rendering, interaction, and lifecycle management</p>
             </div>
             
-            <div className="bg-gradient-to-br from-pink-50 to-pink-100 p-6 rounded-lg shadow-md">
-              <div className="flex items-center mb-3">
-                <Shield className="w-10 h-10 text-pink-600 mr-3" />
-                <h3 className="font-bold text-xl text-pink-900">CI/CD Ready</h3>
+            <div className="bg-gradient-to-br from-pink-50 to-pink-100 p-3 sm:p-4 md:p-5 rounded-lg shadow-md">
+              <div className="flex items-center mb-2">
+                <Shield className="w-8 h-8 sm:w-10 sm:h-10 text-pink-600 mr-2 sm:mr-3" />
+                <h3 className="font-bold text-base sm:text-lg md:text-xl text-pink-900">CI/CD Ready</h3>
               </div>
-              <p className="text-gray-700">Seamless automation pipeline support with GitHub Actions, Jenkins, and more</p>
+              <p className="text-xs sm:text-sm md:text-base text-gray-700">Seamless automation pipeline support with GitHub Actions, Jenkins, and more</p>
             </div>
             
-            <div className="bg-gradient-to-br from-indigo-50 to-indigo-100 p-6 rounded-lg shadow-md">
-              <div className="flex items-center mb-3">
-                <Target className="w-10 h-10 text-indigo-600 mr-3" />
-                <h3 className="font-bold text-xl text-indigo-900">Deterministic</h3>
+            <div className="bg-gradient-to-br from-indigo-50 to-indigo-100 p-3 sm:p-4 md:p-5 rounded-lg shadow-md">
+              <div className="flex items-center mb-2">
+                <Target className="w-8 h-8 sm:w-10 sm:h-10 text-indigo-600 mr-2 sm:mr-3" />
+                <h3 className="font-bold text-base sm:text-lg md:text-xl text-indigo-900">Deterministic</h3>
               </div>
-              <p className="text-gray-700">Reliable and consistent test outcomes with no flaky tests or random failures</p>
+              <p className="text-xs sm:text-sm md:text-base text-gray-700">Reliable and consistent test outcomes with no flaky tests or random failures</p>
             </div>
           </div>
         </div>
@@ -195,57 +195,57 @@ const FlutterTestPresentation = () => {
     {
       title: "WHAT: SwiftRide Test Implementation",
       content: (
-        <div className="space-y-4 sm:space-y-5 md:space-y-6">
-          <div className="bg-gradient-to-r from-green-500 to-green-600 text-white p-6 rounded-lg shadow-xl">
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2 sm:mb-3 flex items-center justify-center flex-wrap">
-              <CheckCircle className="mr-2 sm:mr-3 w-8 h-8 sm:w-10 sm:h-10" />
+        <div className="space-y-2 sm:space-y-3 md:space-y-4 h-full flex flex-col justify-center overflow-hidden">
+          <div className="bg-gradient-to-r from-green-500 to-green-600 text-white p-3 sm:p-4 md:p-5 rounded-lg shadow-xl">
+            <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-2 flex items-center justify-center flex-wrap">
+              <CheckCircle className="mr-2 w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
               <span className="text-center">All Tests Passing: 33/33 ✅</span>
             </h3>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 md:gap-6 text-center mt-3 sm:mt-4">
-              <div className="bg-white bg-opacity-20 rounded-lg p-3 sm:p-4">
-                <p className="text-3xl sm:text-4xl md:text-5xl font-bold">3</p>
-                <p className="text-sm sm:text-base md:text-lg mt-1 sm:mt-2">Unit Tests</p>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-3 md:gap-4 text-center mt-2 sm:mt-3">
+              <div className="bg-white bg-opacity-20 rounded-lg p-2 sm:p-3 md:p-4">
+                <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">3</p>
+                <p className="text-xs sm:text-sm md:text-base lg:text-lg mt-1">Unit Tests</p>
               </div>
-              <div className="bg-white bg-opacity-20 rounded-lg p-3 sm:p-4">
-                <p className="text-3xl sm:text-4xl md:text-5xl font-bold">30</p>
-                <p className="text-sm sm:text-base md:text-lg mt-1 sm:mt-2">Widget Tests</p>
+              <div className="bg-white bg-opacity-20 rounded-lg p-2 sm:p-3 md:p-4">
+                <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">30</p>
+                <p className="text-xs sm:text-sm md:text-base lg:text-lg mt-1">Widget Tests</p>
               </div>
-              <div className="bg-white bg-opacity-20 rounded-lg p-3 sm:p-4">
-                <p className="text-3xl sm:text-4xl md:text-5xl font-bold">10.6s</p>
-                <p className="text-sm sm:text-base md:text-lg mt-1 sm:mt-2">Total Runtime</p>
+              <div className="bg-white bg-opacity-20 rounded-lg p-2 sm:p-3 md:p-4">
+                <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">10.6s</p>
+                <p className="text-xs sm:text-sm md:text-base lg:text-lg mt-1">Total Runtime</p>
               </div>
             </div>
           </div>
 
-          <div className="bg-white p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-gray-800">Test Structure Overview</h3>
-            <div className="space-y-3 font-mono text-sm bg-gray-50 p-4 rounded">
-              <div className="flex items-center text-blue-600 font-bold text-lg">
-                <span className="mr-2">📁</span> test/widget_test/ (30 tests)
+          <div className="bg-white p-3 sm:p-4 md:p-5 rounded-lg shadow-lg">
+            <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold mb-2 sm:mb-3 text-gray-800">Test Structure Overview</h3>
+            <div className="space-y-2 font-mono text-xs sm:text-sm bg-gray-50 p-2 sm:p-3 md:p-4 rounded">
+              <div className="flex items-center text-blue-600 font-bold text-sm sm:text-base md:text-lg">
+                <span className="mr-1 sm:mr-2">📁</span> test/widget_test/ (30 tests)
               </div>
-              <div className="ml-8 space-y-2 text-gray-700">
+              <div className="ml-4 sm:ml-6 md:ml-8 space-y-1 text-gray-700">
                 <div>├── custom_text_field_test.dart <span className="text-green-600 font-bold">(10 tests)</span></div>
                 <div>├── main_button_test.dart <span className="text-green-600 font-bold">(8 tests)</span></div>
                 <div>└── custom_text_widget_test.dart <span className="text-green-600 font-bold">(12 tests)</span></div>
               </div>
-              <div className="flex items-center text-purple-600 font-bold text-lg mt-4">
-                <span className="mr-2">📁</span> test/unit_test/ (3 tests)
+              <div className="flex items-center text-purple-600 font-bold text-sm sm:text-base md:text-lg mt-2 sm:mt-3 md:mt-4">
+                <span className="mr-1 sm:mr-2">📁</span> test/unit_test/ (3 tests)
               </div>
-              <div className="ml-8 space-y-2 text-gray-700">
+              <div className="ml-4 sm:ml-6 md:ml-8 space-y-1 text-gray-700">
                 <div>└── simple_test.dart <span className="text-green-600 font-bold">(3 tests)</span></div>
               </div>
-              <div className="flex items-center text-orange-600 font-bold text-lg mt-4">
-                <span className="mr-2">📁</span> integration_test/
+              <div className="flex items-center text-orange-600 font-bold text-sm sm:text-base md:text-lg mt-2 sm:mt-3 md:mt-4">
+                <span className="mr-1 sm:mr-2">📁</span> integration_test/
               </div>
-              <div className="ml-8 text-gray-700">
+              <div className="ml-4 sm:ml-6 md:ml-8 text-gray-700">
                 <div>├── app_test.dart <span className="text-blue-600">(E2E ready)</span></div>
                 <div>└── driver_flow_test.dart <span className="text-blue-600">(E2E ready)</span></div>
               </div>
             </div>
           </div>
 
-          <div className="bg-blue-50 p-5 rounded-lg border-l-4 border-blue-500">
-            <p className="text-center text-xl font-bold text-blue-800">
+          <div className="bg-blue-50 p-3 sm:p-4 md:p-5 rounded-lg border-l-4 border-blue-500">
+            <p className="text-center text-sm sm:text-base md:text-lg lg:text-xl font-bold text-blue-800">
               🎯 Status: Production Ready - Zero Failures
             </p>
           </div>
@@ -257,7 +257,7 @@ const FlutterTestPresentation = () => {
     {
       title: "WHAT: Components Tested in Detail",
       content: (
-        <div className="space-y-3 sm:space-y-4">
+        <div className="space-y-2 sm:space-y-3 md:space-y-4 h-full flex flex-col justify-center overflow-hidden">
           <div className="bg-purple-50 p-5 rounded-lg shadow-md border-l-4 border-purple-500">
             <h3 className="font-bold text-xl mb-3 text-purple-900 flex items-center">
               <Code className="mr-2" /> CustomTextField Widget (10 Tests)
@@ -749,7 +749,7 @@ const FlutterTestPresentation = () => {
     {
       title: "Limitations and Challenges",
       content: (
-        <div className="space-y-3 sm:space-y-4">
+        <div className="space-y-2 sm:space-y-3 md:space-y-4 h-full flex flex-col justify-center overflow-hidden">
           <div className="bg-red-50 p-5 rounded-lg shadow-md border-l-4 border-red-500">
             <div className="flex items-start">
               <span className="text-3xl mr-4">🎓</span>
@@ -1007,21 +1007,21 @@ const FlutterTestPresentation = () => {
     <div className="h-screen w-screen bg-gradient-to-br from-gray-50 to-gray-100 p-2 sm:p-4 md:p-6 lg:p-8 overflow-hidden">
       <div className="h-full w-full max-w-7xl mx-auto flex flex-col">
         <div className="bg-white rounded-xl shadow-2xl overflow-hidden flex flex-col h-full">
-          <div className="flex-1 overflow-y-auto p-4 sm:p-6 md:p-8">
-            <div className="mb-4 sm:mb-6">
-              <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-800 mb-2">{slides[currentSlide].title}</h2>
-              <div className="w-full bg-gray-200 rounded-full h-2">
+          <div className="flex-1 overflow-hidden p-2 sm:p-3 md:p-4 lg:p-6 flex flex-col min-h-0">
+            <div className="mb-2 sm:mb-3 md:mb-4 flex-shrink-0">
+              <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mb-1 sm:mb-2">{slides[currentSlide].title}</h2>
+              <div className="w-full bg-gray-200 rounded-full h-1.5 sm:h-2">
                 <div 
-                  className="bg-blue-600 h-2 rounded-full transition-all duration-300"
+                  className="bg-blue-600 h-1.5 sm:h-2 rounded-full transition-all duration-300"
                   style={{ width: `${((currentSlide + 1) / slides.length) * 100}%` }}
                 ></div>
               </div>
-              <p className="text-xs sm:text-sm text-gray-500 mt-2">
+              <p className="text-xs text-gray-500 mt-1 sm:mt-2">
                 Slide {currentSlide + 1} of {slides.length}
               </p>
             </div>
             
-            <div className="h-full">
+            <div className="flex-1 overflow-hidden min-h-0">
               {slides[currentSlide].content}
             </div>
           </div>
