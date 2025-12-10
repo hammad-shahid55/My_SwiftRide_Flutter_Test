@@ -9,20 +9,20 @@ const FlutterTestPresentation = () => {
     {
       title: "Flutter Test Implementation",
       content: (
-        <div className="text-center space-y-8">
-          <div className="text-6xl mb-6">🧪</div>
-          <h1 className="text-5xl font-bold text-blue-600 mb-4">Flutter Test</h1>
-          <h2 className="text-3xl text-gray-700 mb-8">Automated Testing Tool</h2>
-          <div className="bg-blue-50 p-6 rounded-lg inline-block">
-            <p className="text-2xl font-semibold text-blue-800 mb-2">SwiftRide Project Implementation</p>
-            <p className="text-lg text-gray-600">Real-World Testing Case Study</p>
+        <div className="text-center space-y-4 sm:space-y-6 md:space-y-8 h-full flex flex-col justify-center">
+          <div className="text-4xl sm:text-5xl md:text-6xl mb-3 sm:mb-4 md:mb-6">🧪</div>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-600 mb-2 sm:mb-3 md:mb-4">Flutter Test</h1>
+          <h2 className="text-xl sm:text-2xl md:text-3xl text-gray-700 mb-4 sm:mb-6 md:mb-8">Automated Testing Tool</h2>
+          <div className="bg-blue-50 p-4 sm:p-5 md:p-6 rounded-lg inline-block">
+            <p className="text-lg sm:text-xl md:text-2xl font-semibold text-blue-800 mb-1 sm:mb-2">SwiftRide Project Implementation</p>
+            <p className="text-sm sm:text-base md:text-lg text-gray-600">Real-World Testing Case Study</p>
           </div>
-          <div className="mt-12 space-y-2">
-            <p className="text-xl text-blue-600 font-semibold">Group Members:</p>
-            <p className="text-lg text-blue-600">Maria Ashraf (01-134221-037)</p>
-            <p className="text-lg text-blue-600">Hammad Shahid (01-134221-026)</p>
+          <div className="mt-6 sm:mt-8 md:mt-12 space-y-1 sm:space-y-2">
+            <p className="text-base sm:text-lg md:text-xl text-blue-600 font-semibold">Group Members:</p>
+            <p className="text-sm sm:text-base md:text-lg text-blue-600">Maria Ashraf (01-134221-037)</p>
+            <p className="text-sm sm:text-base md:text-lg text-blue-600">Hammad Shahid (01-134221-026)</p>
           </div>
-          <p className="text-sm text-gray-500 mt-8 uppercase tracking-wide">SOFTWARE QUALITY ASSURANCE – ASSIGNMENT 4</p>
+          <p className="text-xs sm:text-sm text-gray-500 mt-4 sm:mt-6 md:mt-8 uppercase tracking-wide">SOFTWARE QUALITY ASSURANCE – ASSIGNMENT 4</p>
         </div>
       )
     },
@@ -31,42 +31,42 @@ const FlutterTestPresentation = () => {
     {
       title: "Overview - What is Flutter Test?",
       content: (
-        <div className="space-y-6">
-          <div className="bg-gradient-to-r from-blue-500 to-blue-600 text-white p-6 rounded-lg shadow-lg">
-            <p className="text-xl leading-relaxed">
+        <div className="space-y-4 sm:space-y-5 md:space-y-6">
+          <div className="bg-gradient-to-r from-blue-500 to-blue-600 text-white p-4 sm:p-5 md:p-6 rounded-lg shadow-lg">
+            <p className="text-base sm:text-lg md:text-xl leading-relaxed">
               Flutter Test is a <span className="font-bold underline">built-in testing framework</span> within the Flutter SDK that provides comprehensive testing capabilities for Flutter applications
             </p>
           </div>
           
-          <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-500">
-            <h3 className="text-xl font-bold mb-4 text-gray-800">Key Purpose</h3>
-            <p className="text-gray-700 leading-relaxed">
+          <div className="bg-white p-4 sm:p-5 md:p-6 rounded-lg shadow-md border-l-4 border-blue-500">
+            <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-800">Key Purpose</h3>
+            <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
               Ensures UI reliability, logic correctness, and full app functionality through automated testing without external dependencies
             </p>
           </div>
 
-          <div className="grid grid-cols-3 gap-4">
-            <div className="bg-gradient-to-br from-green-50 to-green-100 p-5 rounded-lg border-t-4 border-green-500 text-center">
-              <Code className="w-12 h-12 text-green-600 mx-auto mb-3" />
-              <h3 className="font-bold text-lg mb-2 text-green-900">Unit Testing</h3>
-              <p className="text-sm text-gray-700">Tests individual functions and business logic</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
+            <div className="bg-gradient-to-br from-green-50 to-green-100 p-4 sm:p-5 rounded-lg border-t-4 border-green-500 text-center">
+              <Code className="w-10 h-10 sm:w-12 sm:h-12 text-green-600 mx-auto mb-2 sm:mb-3" />
+              <h3 className="font-bold text-base sm:text-lg mb-1 sm:mb-2 text-green-900">Unit Testing</h3>
+              <p className="text-xs sm:text-sm text-gray-700">Tests individual functions and business logic</p>
             </div>
             
-            <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-5 rounded-lg border-t-4 border-purple-500 text-center">
-              <Activity className="w-12 h-12 text-purple-600 mx-auto mb-3" />
-              <h3 className="font-bold text-lg mb-2 text-purple-900">Widget Testing</h3>
-              <p className="text-sm text-gray-700">Validates UI components without real devices</p>
+            <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-4 sm:p-5 rounded-lg border-t-4 border-purple-500 text-center">
+              <Activity className="w-10 h-10 sm:w-12 sm:h-12 text-purple-600 mx-auto mb-2 sm:mb-3" />
+              <h3 className="font-bold text-base sm:text-lg mb-1 sm:mb-2 text-purple-900">Widget Testing</h3>
+              <p className="text-xs sm:text-sm text-gray-700">Validates UI components without real devices</p>
             </div>
             
-            <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-5 rounded-lg border-t-4 border-orange-500 text-center">
-              <Shield className="w-12 h-12 text-orange-600 mx-auto mb-3" />
-              <h3 className="font-bold text-lg mb-2 text-orange-900">Integration Testing</h3>
-              <p className="text-sm text-gray-700">End-to-end testing on devices/emulators</p>
+            <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-4 sm:p-5 rounded-lg border-t-4 border-orange-500 text-center">
+              <Shield className="w-10 h-10 sm:w-12 sm:h-12 text-orange-600 mx-auto mb-2 sm:mb-3" />
+              <h3 className="font-bold text-base sm:text-lg mb-1 sm:mb-2 text-orange-900">Integration Testing</h3>
+              <p className="text-xs sm:text-sm text-gray-700">End-to-end testing on devices/emulators</p>
             </div>
           </div>
           
-          <div className="bg-gray-800 text-white p-4 rounded-lg">
-            <p className="text-center font-semibold text-lg">
+          <div className="bg-gray-800 text-white p-3 sm:p-4 rounded-lg">
+            <p className="text-center font-semibold text-sm sm:text-base md:text-lg">
               ✨ Official Framework - No External Dependencies Required
             </p>
           </div>
@@ -78,14 +78,14 @@ const FlutterTestPresentation = () => {
     {
       title: "Types of Testing Supported",
       content: (
-        <div className="space-y-5">
-          <div className="bg-white p-6 rounded-lg shadow-lg border-l-8 border-green-500">
+        <div className="space-y-3 sm:space-y-4 md:space-y-5">
+          <div className="bg-white p-4 sm:p-5 md:p-6 rounded-lg shadow-lg border-l-8 border-green-500">
             <div className="flex items-start">
               <div className="bg-green-100 p-3 rounded-full mr-4">
                 <Code className="w-8 h-8 text-green-600" />
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl font-bold mb-3 text-green-700">Unit Testing</h3>
+                <h3 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-3 text-green-700">Unit Testing</h3>
                 <p className="text-gray-700 mb-2">Tests individual functions, methods, and business logic in isolation</p>
                 <div className="bg-green-50 p-3 rounded mt-2">
                   <p className="text-sm font-semibold text-green-800">✓ Fast execution (milliseconds)</p>
@@ -96,13 +96,13 @@ const FlutterTestPresentation = () => {
             </div>
           </div>
 
-          <div className="bg-white p-6 rounded-lg shadow-lg border-l-8 border-purple-500">
+          <div className="bg-white p-4 sm:p-5 md:p-6 rounded-lg shadow-lg border-l-8 border-purple-500">
             <div className="flex items-start">
               <div className="bg-purple-100 p-3 rounded-full mr-4">
                 <Activity className="w-8 h-8 text-purple-600" />
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl font-bold mb-3 text-purple-700">Widget Testing</h3>
+                <h3 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-3 text-purple-700">Widget Testing</h3>
                 <p className="text-gray-700 mb-2">Validates UI components without needing a real device or emulator</p>
                 <div className="bg-purple-50 p-3 rounded mt-2">
                   <p className="text-sm font-semibold text-purple-800">✓ Tests button clicks and interactions</p>
@@ -113,13 +113,13 @@ const FlutterTestPresentation = () => {
             </div>
           </div>
 
-          <div className="bg-white p-6 rounded-lg shadow-lg border-l-8 border-orange-500">
+          <div className="bg-white p-4 sm:p-5 md:p-6 rounded-lg shadow-lg border-l-8 border-orange-500">
             <div className="flex items-start">
               <div className="bg-orange-100 p-3 rounded-full mr-4">
                 <Shield className="w-8 h-8 text-orange-600" />
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl font-bold mb-3 text-orange-700">Integration Testing</h3>
+                <h3 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-3 text-orange-700">Integration Testing</h3>
                 <p className="text-gray-700 mb-2">End-to-end testing on actual devices or emulators</p>
                 <div className="bg-orange-50 p-3 rounded mt-2">
                   <p className="text-sm font-semibold text-orange-800">✓ Complete user journey validation</p>
@@ -137,8 +137,8 @@ const FlutterTestPresentation = () => {
     {
       title: "Key Features of Flutter Test",
       content: (
-        <div className="space-y-4">
-          <div className="grid grid-cols-2 gap-5">
+        <div className="space-y-3 sm:space-y-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5">
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-lg shadow-md">
               <div className="flex items-center mb-3">
                 <Zap className="w-10 h-10 text-blue-600 mr-3" />
@@ -195,30 +195,30 @@ const FlutterTestPresentation = () => {
     {
       title: "WHAT: SwiftRide Test Implementation",
       content: (
-        <div className="space-y-6">
+        <div className="space-y-4 sm:space-y-5 md:space-y-6">
           <div className="bg-gradient-to-r from-green-500 to-green-600 text-white p-6 rounded-lg shadow-xl">
-            <h3 className="text-3xl font-bold mb-3 flex items-center justify-center">
-              <CheckCircle className="mr-3 w-10 h-10" />
-              All Tests Passing: 33/33 ✅
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2 sm:mb-3 flex items-center justify-center flex-wrap">
+              <CheckCircle className="mr-2 sm:mr-3 w-8 h-8 sm:w-10 sm:h-10" />
+              <span className="text-center">All Tests Passing: 33/33 ✅</span>
             </h3>
-            <div className="grid grid-cols-3 gap-6 text-center mt-4">
-              <div className="bg-white bg-opacity-20 rounded-lg p-4">
-                <p className="text-5xl font-bold">3</p>
-                <p className="text-lg mt-2">Unit Tests</p>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 md:gap-6 text-center mt-3 sm:mt-4">
+              <div className="bg-white bg-opacity-20 rounded-lg p-3 sm:p-4">
+                <p className="text-3xl sm:text-4xl md:text-5xl font-bold">3</p>
+                <p className="text-sm sm:text-base md:text-lg mt-1 sm:mt-2">Unit Tests</p>
               </div>
-              <div className="bg-white bg-opacity-20 rounded-lg p-4">
-                <p className="text-5xl font-bold">30</p>
-                <p className="text-lg mt-2">Widget Tests</p>
+              <div className="bg-white bg-opacity-20 rounded-lg p-3 sm:p-4">
+                <p className="text-3xl sm:text-4xl md:text-5xl font-bold">30</p>
+                <p className="text-sm sm:text-base md:text-lg mt-1 sm:mt-2">Widget Tests</p>
               </div>
-              <div className="bg-white bg-opacity-20 rounded-lg p-4">
-                <p className="text-5xl font-bold">10.6s</p>
-                <p className="text-lg mt-2">Total Runtime</p>
+              <div className="bg-white bg-opacity-20 rounded-lg p-3 sm:p-4">
+                <p className="text-3xl sm:text-4xl md:text-5xl font-bold">10.6s</p>
+                <p className="text-sm sm:text-base md:text-lg mt-1 sm:mt-2">Total Runtime</p>
               </div>
             </div>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-lg">
-            <h3 className="text-2xl font-bold mb-4 text-gray-800">Test Structure Overview</h3>
+            <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-gray-800">Test Structure Overview</h3>
             <div className="space-y-3 font-mono text-sm bg-gray-50 p-4 rounded">
               <div className="flex items-center text-blue-600 font-bold text-lg">
                 <span className="mr-2">📁</span> test/widget_test/ (30 tests)
@@ -257,12 +257,12 @@ const FlutterTestPresentation = () => {
     {
       title: "WHAT: Components Tested in Detail",
       content: (
-        <div className="space-y-4">
+        <div className="space-y-3 sm:space-y-4">
           <div className="bg-purple-50 p-5 rounded-lg shadow-md border-l-4 border-purple-500">
             <h3 className="font-bold text-xl mb-3 text-purple-900 flex items-center">
               <Code className="mr-2" /> CustomTextField Widget (10 Tests)
             </h3>
-            <div className="grid grid-cols-2 gap-3 text-sm">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3 text-xs sm:text-sm">
               <div className="flex items-start">
                 <CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
                 <span className="text-gray-700">Label and hint text display verification</span>
@@ -294,7 +294,7 @@ const FlutterTestPresentation = () => {
             <h3 className="font-bold text-xl mb-3 text-blue-900 flex items-center">
               <Target className="mr-2" /> MainButton Widget (8 Tests)
             </h3>
-            <div className="grid grid-cols-2 gap-3 text-sm">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3 text-xs sm:text-sm">
               <div className="flex items-start">
                 <CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
                 <span className="text-gray-700">Button text display and rendering</span>
@@ -326,7 +326,7 @@ const FlutterTestPresentation = () => {
             <h3 className="font-bold text-xl mb-3 text-green-900 flex items-center">
               <Activity className="mr-2" /> CustomTextWidget (12 Tests)
             </h3>
-            <div className="grid grid-cols-2 gap-3 text-sm">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3 text-xs sm:text-sm">
               <div className="flex items-start">
                 <CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
                 <span className="text-gray-700">Title and subtitle rendering</span>
@@ -361,7 +361,7 @@ const FlutterTestPresentation = () => {
     {
       title: "HOW: Test Setup & Configuration",
       content: (
-        <div className="space-y-5">
+        <div className="space-y-3 sm:space-y-4 md:space-y-5">
           <div className="bg-gray-50 p-6 rounded-lg shadow-md">
             <h3 className="font-bold text-xl mb-4 text-gray-800 flex items-center">
               <Code className="mr-2 text-blue-600" /> 1. Dependencies Installation
@@ -412,10 +412,10 @@ const FlutterTestPresentation = () => {
     {
       title: "HOW: Test Structure & Best Practices",
       content: (
-        <div className="space-y-5">
+        <div className="space-y-3 sm:space-y-4 md:space-y-5">
           <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-blue-500">
-            <h3 className="font-bold text-2xl mb-4 text-blue-900">Test Structure Pattern</h3>
-            <div className="grid grid-cols-3 gap-4">
+            <h3 className="font-bold text-xl sm:text-2xl mb-3 sm:mb-4 text-blue-900">Test Structure Pattern</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
               <div className="bg-blue-50 p-4 rounded-lg text-center">
                 <div className="text-3xl mb-2">📝</div>
                 <h4 className="font-bold text-blue-700 mb-2">Arrange</h4>
@@ -484,11 +484,11 @@ const FlutterTestPresentation = () => {
     {
       title: "WHERE: Testing Application Areas",
       content: (
-        <div className="space-y-5">
-          <div className="grid grid-cols-2 gap-5">
+        <div className="space-y-3 sm:space-y-4 md:space-y-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5">
             <div className="bg-gradient-to-br from-blue-500 to-blue-600 text-white p-6 rounded-lg shadow-xl">
-              <div className="text-4xl mb-3">🎨</div>
-              <h3 className="font-bold text-2xl mb-4">UI Components</h3>
+              <div className="text-3xl sm:text-4xl mb-2 sm:mb-3">🎨</div>
+              <h3 className="font-bold text-xl sm:text-2xl mb-3 sm:mb-4">UI Components</h3>
               <ul className="space-y-2 text-sm">
                 <li className="flex items-center">
                   <span className="mr-2">•</span>
@@ -510,8 +510,8 @@ const FlutterTestPresentation = () => {
             </div>
 
             <div className="bg-gradient-to-br from-green-500 to-green-600 text-white p-6 rounded-lg shadow-xl">
-              <div className="text-4xl mb-3">✅</div>
-              <h3 className="font-bold text-2xl mb-4">Validation Logic</h3>
+              <div className="text-3xl sm:text-4xl mb-2 sm:mb-3">✅</div>
+              <h3 className="font-bold text-xl sm:text-2xl mb-3 sm:mb-4">Validation Logic</h3>
               <ul className="space-y-2 text-sm">
                 <li className="flex items-center">
                   <span className="mr-2">•</span>
@@ -533,8 +533,8 @@ const FlutterTestPresentation = () => {
             </div>
 
             <div className="bg-gradient-to-br from-purple-500 to-purple-600 text-white p-6 rounded-lg shadow-xl">
-              <div className="text-4xl mb-3">🖱️</div>
-              <h3 className="font-bold text-2xl mb-4">User Interactions</h3>
+              <div className="text-3xl sm:text-4xl mb-2 sm:mb-3">🖱️</div>
+              <h3 className="font-bold text-xl sm:text-2xl mb-3 sm:mb-4">User Interactions</h3>
               <ul className="space-y-2 text-sm">
                 <li className="flex items-center">
                   <span className="mr-2">•</span>
@@ -556,8 +556,8 @@ const FlutterTestPresentation = () => {
             </div>
 
             <div className="bg-gradient-to-br from-orange-500 to-orange-600 text-white p-6 rounded-lg shadow-xl">
-              <div className="text-4xl mb-3">🎨</div>
-              <h3 className="font-bold text-2xl mb-4">Styling & Themes</h3>
+              <div className="text-3xl sm:text-4xl mb-2 sm:mb-3">🎨</div>
+              <h3 className="font-bold text-xl sm:text-2xl mb-3 sm:mb-4">Styling & Themes</h3>
               <ul className="space-y-2 text-sm">
                 <li className="flex items-center">
                   <span className="mr-2">•</span>
@@ -591,7 +591,7 @@ const FlutterTestPresentation = () => {
     {
       title: "Usage Scenarios in SwiftRide",
       content: (
-        <div className="space-y-5">
+        <div className="space-y-3 sm:space-y-4 md:space-y-5">
           <div className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white p-6 rounded-lg shadow-xl">
             <h3 className="text-2xl font-bold text-center">Real-World Testing Applications</h3>
           </div>
@@ -669,7 +669,7 @@ const FlutterTestPresentation = () => {
     {
       title: "Advantages and Benefits",
       content: (
-        <div className="space-y-5">
+        <div className="space-y-3 sm:space-y-4 md:space-y-5">
           <div className="grid grid-cols-2 gap-4">
             <div className="bg-green-50 p-5 rounded-lg border-l-4 border-green-500 shadow-md">
               <div className="flex items-center mb-3">
@@ -722,7 +722,7 @@ const FlutterTestPresentation = () => {
 
           <div className="bg-gradient-to-r from-gray-800 to-gray-900 text-white p-6 rounded-lg shadow-xl">
             <h3 className="font-bold text-xl mb-4 text-center">Real-World Impact in SwiftRide</h3>
-            <div className="grid grid-cols-2 gap-4 text-sm">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 text-xs sm:text-sm">
               <div className="flex items-start">
                 <CheckCircle className="w-5 h-5 text-green-400 mr-2 mt-0.5 flex-shrink-0" />
                 <span>Caught UI bugs before production deployment</span>
@@ -749,7 +749,7 @@ const FlutterTestPresentation = () => {
     {
       title: "Limitations and Challenges",
       content: (
-        <div className="space-y-4">
+        <div className="space-y-3 sm:space-y-4">
           <div className="bg-red-50 p-5 rounded-lg shadow-md border-l-4 border-red-500">
             <div className="flex items-start">
               <span className="text-3xl mr-4">🎓</span>
@@ -815,7 +815,7 @@ const FlutterTestPresentation = () => {
     {
       title: "Comparison: Flutter Test vs Other Tools",
       content: (
-        <div className="space-y-5">
+        <div className="space-y-3 sm:space-y-4 md:space-y-5">
           <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-5 rounded-lg shadow-xl">
             <h3 className="text-2xl font-bold text-center">Competitive Analysis</h3>
           </div>
@@ -825,7 +825,7 @@ const FlutterTestPresentation = () => {
               <h3 className="font-bold text-xl text-gray-800">Flutter Test vs Selenium</h3>
               <span className="bg-green-100 text-green-800 text-sm font-bold px-4 py-1 rounded-full">Winner: Flutter Test</span>
             </div>
-            <div className="grid grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
               <div className="bg-blue-50 p-4 rounded-lg">
                 <p className="font-semibold text-blue-800 mb-3 text-lg">✓ Flutter Test</p>
                 <ul className="space-y-2 text-sm text-gray-700">
@@ -876,7 +876,7 @@ const FlutterTestPresentation = () => {
               <h3 className="font-bold text-xl text-gray-800">Flutter Test vs Appium</h3>
               <span className="bg-green-100 text-green-800 text-sm font-bold px-4 py-1 rounded-full">Winner: Flutter Test</span>
             </div>
-            <div className="grid grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
               <div className="bg-purple-50 p-4 rounded-lg">
                 <p className="font-semibold text-purple-800 mb-3 text-lg">✓ Flutter Test</p>
                 <ul className="space-y-2 text-sm text-gray-700">
@@ -935,33 +935,33 @@ const FlutterTestPresentation = () => {
     {
       title: "Conclusion",
       content: (
-        <div className="space-y-6">
+        <div className="space-y-4 sm:space-y-5 md:space-y-6">
           <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-8 rounded-lg shadow-xl text-center">
             <h2 className="text-4xl font-bold mb-4">Project Success</h2>
             <p className="text-xl">Flutter Test Implementation in SwiftRide</p>
           </div>
 
-          <div className="grid grid-cols-3 gap-4">
-            <div className="bg-green-50 p-6 rounded-lg border-2 border-green-500 text-center">
-              <Award className="w-16 h-16 text-green-600 mx-auto mb-3" />
-              <p className="text-4xl font-bold text-green-600 mb-2">33/33</p>
-              <p className="text-gray-700 font-semibold">Tests Passing</p>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
+            <div className="bg-green-50 p-4 sm:p-6 rounded-lg border-2 border-green-500 text-center">
+              <Award className="w-12 h-12 sm:w-16 sm:h-16 text-green-600 mx-auto mb-2 sm:mb-3" />
+              <p className="text-3xl sm:text-4xl font-bold text-green-600 mb-1 sm:mb-2">33/33</p>
+              <p className="text-sm sm:text-base text-gray-700 font-semibold">Tests Passing</p>
             </div>
-            <div className="bg-blue-50 p-6 rounded-lg border-2 border-blue-500 text-center">
-              <Zap className="w-16 h-16 text-blue-600 mx-auto mb-3" />
-              <p className="text-4xl font-bold text-blue-600 mb-2">10.6s</p>
-              <p className="text-gray-700 font-semibold">Total Runtime</p>
+            <div className="bg-blue-50 p-4 sm:p-6 rounded-lg border-2 border-blue-500 text-center">
+              <Zap className="w-12 h-12 sm:w-16 sm:h-16 text-blue-600 mx-auto mb-2 sm:mb-3" />
+              <p className="text-3xl sm:text-4xl font-bold text-blue-600 mb-1 sm:mb-2">10.6s</p>
+              <p className="text-sm sm:text-base text-gray-700 font-semibold">Total Runtime</p>
             </div>
-            <div className="bg-purple-50 p-6 rounded-lg border-2 border-purple-500 text-center">
-              <TrendingUp className="w-16 h-16 text-purple-600 mx-auto mb-3" />
-              <p className="text-4xl font-bold text-purple-600 mb-2">100%</p>
-              <p className="text-gray-700 font-semibold">Success Rate</p>
+            <div className="bg-purple-50 p-4 sm:p-6 rounded-lg border-2 border-purple-500 text-center">
+              <TrendingUp className="w-12 h-12 sm:w-16 sm:h-16 text-purple-600 mx-auto mb-2 sm:mb-3" />
+              <p className="text-3xl sm:text-4xl font-bold text-purple-600 mb-1 sm:mb-2">100%</p>
+              <p className="text-sm sm:text-base text-gray-700 font-semibold">Success Rate</p>
             </div>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <h3 className="text-2xl font-bold mb-4 text-gray-800 text-center">Key Achievements</h3>
-            <div className="grid grid-cols-2 gap-4 text-sm">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 text-xs sm:text-sm">
               <div className="flex items-start">
                 <CheckCircle className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
                 <span className="text-gray-700">Comprehensive test coverage for UI components</span>
@@ -1004,44 +1004,45 @@ const FlutterTestPresentation = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 p-8">
-      <div className="max-w-6xl mx-auto">
-        <div className="bg-white rounded-xl shadow-2xl overflow-hidden">
-          <div className="p-8">
-            <div className="mb-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-2">{slides[currentSlide].title}</h2>
+    <div className="h-screen w-screen bg-gradient-to-br from-gray-50 to-gray-100 p-2 sm:p-4 md:p-6 lg:p-8 overflow-hidden">
+      <div className="h-full w-full max-w-7xl mx-auto flex flex-col">
+        <div className="bg-white rounded-xl shadow-2xl overflow-hidden flex flex-col h-full">
+          <div className="flex-1 overflow-y-auto p-4 sm:p-6 md:p-8">
+            <div className="mb-4 sm:mb-6">
+              <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-800 mb-2">{slides[currentSlide].title}</h2>
               <div className="w-full bg-gray-200 rounded-full h-2">
                 <div 
                   className="bg-blue-600 h-2 rounded-full transition-all duration-300"
                   style={{ width: `${((currentSlide + 1) / slides.length) * 100}%` }}
                 ></div>
               </div>
-              <p className="text-sm text-gray-500 mt-2">
+              <p className="text-xs sm:text-sm text-gray-500 mt-2">
                 Slide {currentSlide + 1} of {slides.length}
               </p>
             </div>
             
-            <div className="min-h-[500px]">
+            <div className="h-full">
               {slides[currentSlide].content}
             </div>
           </div>
           
-          <div className="bg-gray-50 px-8 py-4 flex justify-between items-center border-t">
+          <div className="bg-gray-50 px-2 sm:px-4 md:px-8 py-2 sm:py-3 md:py-4 flex flex-col sm:flex-row justify-between items-center gap-2 sm:gap-0 border-t flex-shrink-0">
             <button
               onClick={prevSlide}
               disabled={currentSlide === 0}
-              className="flex items-center px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors"
+              className="flex items-center px-3 sm:px-4 md:px-6 py-1.5 sm:py-2 text-sm sm:text-base bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors w-full sm:w-auto justify-center"
             >
-              <ChevronLeft className="w-5 h-5 mr-2" />
-              Previous
+              <ChevronLeft className="w-4 h-4 sm:w-5 sm:h-5 mr-1 sm:mr-2" />
+              <span className="hidden sm:inline">Previous</span>
+              <span className="sm:hidden">Prev</span>
             </button>
             
-            <div className="flex space-x-2">
+            <div className="flex space-x-1 sm:space-x-2 flex-wrap justify-center max-w-full">
               {slides.map((_, index) => (
                 <button
                   key={index}
                   onClick={() => setCurrentSlide(index)}
-                  className={`w-3 h-3 rounded-full transition-colors ${
+                  className={`w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-colors flex-shrink-0 ${
                     index === currentSlide ? 'bg-blue-600' : 'bg-gray-300'
                   }`}
                 />
@@ -1051,10 +1052,11 @@ const FlutterTestPresentation = () => {
             <button
               onClick={nextSlide}
               disabled={currentSlide === slides.length - 1}
-              className="flex items-center px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors"
+              className="flex items-center px-3 sm:px-4 md:px-6 py-1.5 sm:py-2 text-sm sm:text-base bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors w-full sm:w-auto justify-center"
             >
-              Next
-              <ChevronRight className="w-5 h-5 ml-2" />
+              <span className="hidden sm:inline">Next</span>
+              <span className="sm:hidden">Next</span>
+              <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5 ml-1 sm:ml-2" />
             </button>
           </div>
         </div>
