@@ -14,8 +14,7 @@ const FlutterTestPresentation = () => {
           <h1 className="text-5xl font-bold text-blue-600 mb-4">Flutter Test</h1>
           <h2 className="text-3xl text-gray-700 mb-8">Automated Testing Tool</h2>
           <div className="bg-blue-50 p-6 rounded-lg inline-block">
-            <p className="text-2xl font-semibold text-blue-800 mb-2">SwiftRide Project Implementation</p>
-            <p className="text-lg text-gray-600">Real-World Testing Case Study</p>
+            <p className="text-2xl font-semibold text-blue-800 mb-2">SwiftRide Application Testing</p>
           </div>
           <div className="mt-12 space-y-2">
             <p className="text-xl text-blue-600 font-semibold">Group Members:</p>
